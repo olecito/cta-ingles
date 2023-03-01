@@ -1,35 +1,28 @@
 body {
-font-family: Fira Sans;
+  font-family: Fira Sans;
 }
 
-
-body > div:nth-child(1) {
-
-display: flex;
-justify-content: flex-end;
-align-items: stretch; 
-
+body > div.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  gap: 10px; 
 }
 
-body > div:nth-child(1) > img {
-
-margin: 30px;
-width: 150px;
-height: 90px;
-
+body > div.buttons > div.btn {
+  width: max-content;
+  margin: 0 auto;
 }
 
-body > div:nth-child(2) {
-      display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    text-align: center;
-    align-content: flex-end;
-    justify-content: space-evenly;
-    height: 40vh;
+body > div.logo > img {
+  margin: 30px;
+  width: 150px;
+  height: 90px;
 }
 
-.tags {
+h3.tags {
   margin-top: 10px;
 }
-
