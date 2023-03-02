@@ -9,7 +9,9 @@ body > div.buttons {
   justify-content: center;
   align-items: center;
   height: 30rem;
-  gap: 10px; 
+  width: 60rem;
+  gap: 25px;
+  margin: 0 auto;
 }
 
 body > div.buttons > div.btn {
